@@ -1,0 +1,7 @@
+name: hermes-sleep-gate
+version: 1.0.0
+description: Blocks inbound messages while the agent is asleep (lock file) and replies with a configurable sleep message. Zero-token enforcement via pre_gateway_dispatch hook.
+author: github.com/freeze1999
+enabled: true
+hooks:
+  - pre_gateway_dispatch
